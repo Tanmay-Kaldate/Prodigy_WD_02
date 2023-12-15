@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Prodigy_WD_02.css">
+    <script src="Prodigy_WD_02.js"></script>
+    <title>Stopwatch App</title>
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch">
+            <div class="display" id="display">00:00:00</div>
+            <div class="controls">
+                <button id="startBtn" onclick="startStopwatch()">Start</button>
+                <button id="lapBtn" onclick="recordLap()">Lap</button>
+                <button id="resetBtn" onclick="resetStopwatch()">Reset</button>
+            </div>
+            <ul id="laps" class="laps-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
